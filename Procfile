@@ -1,0 +1,1 @@
+web: bundle exec puma -p $PORT -C ./config/puma.rb --control unix:///tmp/puma.sock --control-token 1234
